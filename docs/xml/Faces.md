@@ -1,5 +1,3 @@
-# Faces.xml
-
 Location: root/data
 
 Defines the faces of the entrants.
@@ -15,8 +13,6 @@ Defines the faces of the entrants.
   </sheet>
 </faces>
 ```
-
-### Usage
 
 head, eyes and mouth are only used once per face in the default Faces.xml, and only for Males.
 

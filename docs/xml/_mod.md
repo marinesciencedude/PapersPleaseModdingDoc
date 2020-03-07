@@ -1,5 +1,3 @@
-# _mod.xml
-
 Location: root of mod folder
 
 Provides mod information that can be accessed on the main menu.
