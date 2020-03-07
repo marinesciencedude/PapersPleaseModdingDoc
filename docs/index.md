@@ -9,8 +9,8 @@ This the unofficial modding documentation for the Papers, Please Beta.
 	- [Emblems.xml](xml/Emblems.md)
 	- [Faces.xml](xml/Faces.md)
 	- Facts.xml
-	- [Intro.xml](xml/Intro.xml)
-	- [News.xml](xml/News.xml)
+	- [Intro.xml](xml/Intro.md)
+	- [News.xml](xml/News.md)
 	- Papers.xml
 	- Paths.xml
 - TXT, CSV
