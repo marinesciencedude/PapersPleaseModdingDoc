@@ -16,7 +16,7 @@ Defines the faces of the entrants.
 </faces>
 ```
 
-head, eyes and mouth are only used once per face in the default Faces.xml, and only for Males.
+Only one from head, eyes and mouth are used per face in the default Faces.xml, and only for Males.
 
 * id: The ID of the Sheet, correpsonding to the image file i.e. id:M0 for SheetM0.png
 * age: The age of the entrant.
