@@ -1,3 +1,5 @@
+**News.xml**
+
 Location: root/data
 
 Specifies the layout of the newspaper shown at the start of the day.
