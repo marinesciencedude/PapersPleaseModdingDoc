@@ -1,0 +1,12 @@
+site_name: Papers, Please Beta Modding Documentation
+site_author: marinesciencedude
+repo_url: https://github.com/marinesciencedude/PapersPleaseModdingDoc
+theme: readthedocs
+pages:
+- ['index.md', 'Home']
+- ['xml/_mod.md', 'XML', '_mod.xml']
+- ['xml/Bodies.md', 'XML', 'Bodies.xml']
+- ['xml/Emblems.md', 'XML', 'Emblems.xml']
+- ['xml/Faces.md', 'XML', 'Faces.xml']
+- ['xml/Intro.md', 'XML', 'Intro.xml']
+- ['xml/News.md', 'XML', 'News.xml']
