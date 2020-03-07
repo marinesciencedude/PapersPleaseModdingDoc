@@ -8,7 +8,7 @@ Defines the intro used when starting a new game.
 
 ```
 <intro>
-  <page image="" text=""></page>
+  <page image="" text=""/>
 </intro>
 ```
 * image: Filename (and extension) of image in the root of the mod folder.

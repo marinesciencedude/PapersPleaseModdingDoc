@@ -6,7 +6,7 @@ Defines emblems which can be used on documents.
 
 ### Usage
 
-`<emblem id="" file="" count="" valid="" size="" canrotate=""></emblem>`
+`<emblem id="" file="" count="" valid="" size="" canrotate=""/>
 
 * id: ID that can be referenced in Papers.xml
 * file: Filename (and extension) of the image in root/emblems

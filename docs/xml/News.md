@@ -9,7 +9,7 @@ Specifies the layout of the newspaper shown at the start of the day.
 ```
 <news>
   <layout>
-    <article loc="" width="" heightifempty=""></article>
+    <article loc="" width="" heightifempty=""/>
   </layout>
 </news>
 ```
