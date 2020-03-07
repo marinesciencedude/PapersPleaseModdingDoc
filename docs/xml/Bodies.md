@@ -17,6 +17,8 @@ Defines regions of the body and contraband.
 ```
 
 * id: ID of the body region that can be referenced elsewhere.
+* rect: The area of the body region represented by a rectangle.
+
 * type: _gun,knife,bomb,drugs_ Type of contraband.
 * loc: _back,legr,legl_ Region of body the contraband is on.
 * file: Filename (and extension) of the image in root/faces
