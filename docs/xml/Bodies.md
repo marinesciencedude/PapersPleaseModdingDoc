@@ -16,8 +16,12 @@ Defines regions of the body and contraband.
 </bodies>
 ```
 
+Body region:
+
 * id: ID of the body region that can be referenced elsewhere.
 * rect: The area of the body region represented by a rectangle.
+
+Contraband:
 
 * type: _gun,knife,bomb,drugs_ Type of contraband.
 * loc: _back,legr,legl_ Region of body the contraband is on.
