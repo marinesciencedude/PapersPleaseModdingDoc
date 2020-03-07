@@ -5,9 +5,9 @@ theme: readthedocs
 nav:
     - Home: 'index.md'
     - XML:
-        - _mod.ml: 'docs/xml/_mod.md'
-        - Bodies.xml: 'docs/xml/Bodies.md'
-        - Emblems.xml: 'docs/xml/Emblems.md'
-        - Faces.xml: 'docs/xml/Faces.md'
-        - Intro.xml: 'docs/xml/Intro.md'
-        - News.xml: 'docs/xml/News.md'
+        - _mod.ml: 'xml/_mod.md'
+        - Bodies.xml: 'xml/Bodies.md'
+        - Emblems.xml: 'xml/Emblems.md'
+        - Faces.xml: 'xml/Faces.md'
+        - Intro.xml: 'xml/Intro.md'
+        - News.xml: 'xml/News.md'
