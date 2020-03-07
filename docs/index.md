@@ -3,7 +3,7 @@
 This the unofficial modding documentation for the Papers, Please Beta.
 
 - XML
-	- [_mod.xml](xml/_mod.md]
+	- [_mod.xml](xml/_mod.md)
 	- Man0.xml
 	- [Bodies.xml](xml/Bodies.md)
 	- [Emblems.xml](xml/Emblems.md)
