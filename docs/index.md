@@ -11,7 +11,7 @@ This the unofficial modding documentation for the Papers, Please Beta.
 	- Facts.xml
 	- [Intro.xml](xml/Intro.md)
 	- [News.xml](xml/News.md)
-	- Papers.xml
+	- [Papers.xml](xml/Papers.md)
 	- Paths.xml
 - TXT, CSV
 	- Days.csv

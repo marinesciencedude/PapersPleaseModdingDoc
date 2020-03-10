@@ -11,3 +11,4 @@ nav:
         - Faces.xml: 'xml/Faces.md'
         - Intro.xml: 'xml/Intro.md'
         - News.xml: 'xml/News.md'
+        - Papers.xml: 'xml/Papers.md'
