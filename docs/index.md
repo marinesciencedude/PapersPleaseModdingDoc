@@ -14,7 +14,7 @@ This the unofficial modding documentation for the Papers, Please Beta.
 	- [Papers.xml](xml/Papers.md)
 	- Paths.xml
 - TXT, CSV
-	- Days.csv
+	- [Days.csv](txt-csv/Days.md)
 	- Errors.txt
 	- Speeches.txt
 	- Travelers.txt
