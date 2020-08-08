@@ -12,3 +12,5 @@ nav:
         - Intro.xml: 'xml/Intro.md'
         - News.xml: 'xml/News.md'
         - Papers.xml: 'xml/Papers.md'
+    - TXT/CSV:
+        - Days.csv: 'txt-csv/Days.md'
