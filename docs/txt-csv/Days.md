@@ -4,7 +4,7 @@ Location: root/data
 
 Defines 
 
-###Usage
+### Usage
 
 | DAY       | 1                                                                                                                                                                                                                              | 2                        | 3                                             | 4                                                       | 5            | 6                                      | 7                               | 8                     | 9     | 10            | 100      |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|-----------------------------------------------|---------------------------------------------------------|--------------|----------------------------------------|---------------------------------|-----------------------|-------|---------------|----------|
@@ -35,12 +35,12 @@ Defines
   * FINGERPRINT: Allows fingerprinting as an interrogation possibility.
   * DETAIN: Allows detention of suspicious entrants.
   * SEARCH: Allows searching as an interrogation possibility.
-  * SNIPING: (Unused, untestested in functionality) Allows weapons to be used for stopping terrorist attacks.
-* NEWS: *T Title S Sub-heading* The headlines that appear in the newspaper at the start of the day.
+  * SNIPING: (Unused, untestested in functionality) Allows the sniper rifle to be used in the event of a terrorist attack.
+* NEWS: *T Title S Subtitle* The headlines that appear in the newspaper at the start of the day.
 * BULLETIN: The text displayed in the bulletin.
 * BPAGES: The pageid of the Bulletin tutorials, found in Papers.xml, to be displayed after the first page.
 * DURATION:
-* RUNNER: Whether there will be a 'runner' (climber) terrorist attack that day.
+* RUNNER: Whether there will be a 'runner' (terrorist which climbs over the war) attacking that day.
 * LAMP:
 * GUARD: What guards will appear on that day, by their position.
 * PAPERS: (Unused)
