@@ -61,17 +61,17 @@ RANOM_ENTRANT
 * @ *Leave*: Forces the entrant to leave the booth (always to the left, back to Kolechia's side of the border).
 * @ *Detain*: Enables detainment of an entrant (with the corresponding 'Detain' cue).
 * @ News *Headline \ Subtitle*: Sets a headline for the following day's newspaper.
-* > Intro-Before: Actions and/or dialogue to take place before any intro dialogue (used only for the 'EZIC' entrant and an unused 'Pevert-1').
-* > Intro-After: Actions and/or dialogue to take place after any intro dialogue (used for the 'BROTHEL2' entrant (the one who sets the Ludum Dari plotline into motion) and an unused 'Pevert-1').
-* > Intro-Replace: Dialogue used when the entrant steps into the booth.
-* > ShutterClose: Actions to take palce if the shutters are closed (only used for the the 'MRPERSISTENT0' entrant, the first Jorji Costava appearance).
-* > Give-BrothelHelp/Give-EzicIntro: Actions and/or dialogue to take place as a result of giving the the 'BrothelHelp' or 'EzicIntro' items to this entrant
-* > Interrogate-Replace: Dialogue used when the entrant is interrogated.
-* > Detain-Replace: Dialogue used when the entrant is detained.
-* > Detain-After: Dialogue used just before a detained entrant exits the booth (only used for the 'KILLERATHELETE' entrant, i.e. Vince Lestrade).
-* > Approved: Dialogue used for an approved entrant.
-* > Denied: Dialogue used for a denied entrant.
-* > Leave: Actions and/or dialogue used for an exiting entrant, regardless of approval/denial status.
+* `> Intro-Before`: Actions and/or dialogue to take place before any intro dialogue (used only for the 'EZIC' entrant and an unused 'Pevert-1').
+* `> Intro-After`: Actions and/or dialogue to take place after any intro dialogue (used for the 'BROTHEL2' entrant (the one who sets the Ludum Dari plotline into motion) and an unused 'Pevert-1').
+* `> Intro-Replace`: Dialogue used when the entrant steps into the booth.
+* `> ShutterClose`: Actions to take palce if the shutters are closed (only used for the the 'MRPERSISTENT0' entrant, the first Jorji Costava appearance).
+* `> Give-BrothelHelp/Give-EzicIntro`: Actions and/or dialogue to take place as a result of giving the the 'BrothelHelp' or 'EzicIntro' items to this entrant
+* `> Interrogate-Replace`: Dialogue used when the entrant is interrogated.
+* `> Detain-Replace`: Dialogue used when the entrant is detained.
+* `> Detain-After`: Dialogue used just before a detained entrant exits the booth (only used for the 'KILLERATHELETE' entrant, i.e. Vince Lestrade).
+* `> Approved`: Dialogue used for an approved entrant.
+* `> Denied`: Dialogue used for a denied entrant.
+* `> Leave`: Actions and/or dialogue used for an exiting entrant, regardless of approval/denial status.
 
 ### Game Logic
 
@@ -139,7 +139,7 @@ MR_PERSISTENT_BASE
 		= Game/MrPersistent done
 ```
 
-The final example is the Husband and Wife travelling together. For brevity most of the dialogue has been removed:
+The final example for logic states is the Husband and Wife travelling together. For brevity most of the dialogue has been removed:
 
 ```
 HUSBAND_WIFE_TEAM
@@ -175,3 +175,42 @@ HUSBAND_WIFE_TEAM
 ```
 
 As usual, by default Game/HusbandWifeTeam is set to the blank "". Regardless of the player's choice, the entrant is set to be female the next time it enters the booth. If the Husband is approved, the Wife will enter and allow the usual approval/denial. If the Husband is denied, the Wife will e with a different Intro dialogue and promptly leave the booth.
+
+ Finally, the 'BROTHEL3' (Dari Ludum) and 'KILLER ATHLETE' (Vince Lestrade) entrants show how to make information on an item selectable for interrogation:
+ 
+ ```
+ BROTHEL3
+	= nation Arstotzka
+	= name Dari-Ludum
+	= gender M
+	= want BrothelHelp
+	= error BrothelHelp
+	= face M-11-12-8-5
+	( PimpName
+		.*/Name
+		BrothelHelp
+ ```
+ 
+ * ( PimpName
+ 	* .*/Name: The field this information belongs to.
+	* BrothelHelp: The ID of the item this information is found on.
+ 
+ ```
+ KILLERATHLETE
+	= nation Republia
+	= gender M
+	= name Vince-Lestrade
+	= face M-3-3-10-10
+	+ Passport
+	+ EntryPermit
+	= purpose transit
+	= error Bulletin-News0News1
+	( KillerName0
+		.*/Name
+		.*/Face
+		Bulletin/News0
+	( KillerName1
+		.*/Name
+		.*/Face
+		Bulletin/News1
+ ```
