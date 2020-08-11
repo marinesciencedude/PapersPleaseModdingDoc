@@ -17,7 +17,7 @@ This the unofficial modding documentation for the Papers, Please Beta.
 	- [Days.csv](txt-csv/Days.md)
 	- Errors.txt
 	- Speeches.txt
-	- Travelers.txt
+	- [Travelers.txt](txt-csv/Travelers.md)
 	- Version.txt
 - Images
 	- Man0.png
