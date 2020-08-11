@@ -14,3 +14,4 @@ nav:
         - Papers.xml: 'xml/Papers.md'
     - TXT/CSV:
         - Days.csv: 'txt-csv/Days.md'
+        - Travelers.txt: 'txt-csv/Travelers.md'
