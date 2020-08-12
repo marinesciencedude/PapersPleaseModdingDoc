@@ -36,7 +36,7 @@ RANOM_ENTRANT
 * = purpose: Defines what should be on the 'Purpose' field for the Entry Permit. Correct values can be found in Facts.xml
 * = duration: Defines what should be on the 'Duration of Stay' field for the Entry Permit. Correct values can be found in Facts.xml
 * = job: Defines what should be on the 'Occupation' field for the Work Permit. Unused in Travelers.txt, though confirmed to be working.
-* = error *ErrorName*: Defines what errors will be present in an entrant's documentation.
+* = error *ErrorName*: Defines what errors (found in Errors.txt) will be present in an entrant's documentation.
 	* x 1 --
 	* x 2 <generic> <speech> <missing>
 		* Used for randomising whether the entrant will have an error or not.
