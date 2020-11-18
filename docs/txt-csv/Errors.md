@@ -34,6 +34,7 @@ Defines errors that can be present for an entrant.
 * @ *Fingerprint/Detain/Search*: An action that occurs.
 
 ### Examples
+How a 'clearable' error is distinguished:
 
 ```
 *Interrogate:WrongName
@@ -46,8 +47,6 @@ Defines errors that can be present for an entrant.
 	" default
 	@ Detain
 ```
-
-
 
 ```
 Passport-WrongFaceClear<generic>
@@ -69,7 +68,7 @@ Passport-WrongFaceError<generic>
 		> $Interrogate:WrongFingerprints
 ```
 
-Highlights the distinction in-code a 'clearable' error has.
+Hidden documents use a different system to other 'clearable errors':
 
 ```
 Passport-Missing<missing>
@@ -86,7 +85,7 @@ Passport-Hidden<missing>
 			^ Passport/Visible
 ```
 
-Hidden documents use a different system to other 'clearable errors'.
+Some errors require certain rules to be in place:
 
 ```
 Rules-DetainKolechia
@@ -100,7 +99,7 @@ Rules-DetainKolechia
 			@ Detain
 ```
 
-Some errors require certain rules to be in place.
+Some errors are based around the bulletin. These appear to be for the entrant 'KILLERATHLETE' (Vince Lestrade):
 
 ```
 Bulletin-News0
@@ -119,7 +118,7 @@ Bulletin-News0News1
 		> Interrogate
 ```
 
-Some errors are based around the bulletin. These appear to be for the entrant 'KILLERATHLETE' (Vince Lestrade)
+And other errors are based around items other than a official documents, or lack thereof in the case of 'Misc-BoothCounter', used for 'MRPERSISTENT0' (Jorji Costava's first appearance):
 
 ```
 Misc-BrothelHelp
@@ -137,5 +136,3 @@ Misc-Pezpert
 		> Interrogate
 			# response is handled manually by traveler
 ```
-
-And other errors are based around items other than a official documents, or lack thereof in the case of 'Misc-BoothCounter', used for 'MRPERSISTENT0' (Jorji Costava's first appearance).
