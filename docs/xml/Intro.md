@@ -2,7 +2,7 @@
 
 Location: root/data
 
-Defines the intro used when starting a new game.
+Defines the slides of the intro when starting a new game.
 
 ### Usage
 
