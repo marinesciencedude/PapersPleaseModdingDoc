@@ -40,7 +40,7 @@ Defines
 * BULLETIN: The text displayed in the bulletin.
 * BPAGES: The pageid of the Bulletin tutorials, found in Papers.xml, to be displayed after the first page.
 * DURATION:
-* RUNNER: Whether there will be a 'runner' (terrorist which climbs over the war) attacking that day.
+* RUNNER: Whether there will be a 'runner' (terrorist which climbs over the wall) attacking that day.
 * LAMP:
 * GUARD: What guards will appear on that day, by their position.
 * PAPERS: (Unused)
