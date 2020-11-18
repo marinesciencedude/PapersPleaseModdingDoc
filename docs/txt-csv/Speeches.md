@@ -20,6 +20,8 @@ traveler
 
 Standard dialogue, with an ID for referencing elsewhere and multiple lines that can be said.
 
+***
+
 ```
 inspector
 	ask-forgery-missing
@@ -39,6 +41,8 @@ inspector
 
 Contextual dialogue, as well as referencing other speeches. In this case if there is no seal on the Entry or Work Permits, the inspector can remark on its absence rather than merely stating that it is a forgery.
 
+***
+
 ```
 inspector
 	ask-wrong-gender Passport/Gender
@@ -51,6 +55,8 @@ inspector
 ```
 
 Contextual dialogue based on Entrant's traits, in this case for gender. Note the 'Passport/Gender' used to specify what to check for.
+
+***
 
 ```
 inspector
@@ -71,6 +77,8 @@ inspector
 ```
 
 Contextual dialogue by a different means of checking (without specifying upfront), this time for nationality.
+
+***
 
 ```
 traveler
