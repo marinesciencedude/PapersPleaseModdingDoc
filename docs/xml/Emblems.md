@@ -17,4 +17,4 @@ Defines emblems which can be used on documents.
 * count:
 * valid:
 * size: Length and width of the image, separated by a space
-* canrotate: _true/false_ Determines whether the emblem can be rotated or not.
+* canrotate: _`true`_/_`false`_ Determines whether the emblem can be rotated or not.
