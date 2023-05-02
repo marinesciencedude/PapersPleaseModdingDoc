@@ -30,13 +30,13 @@ Defines
 * COUNT: 
 * TRAVELERS: What travellers, found in Travelers.txt, appear on this day.
 * FEATURES: What features are in place on the day.
-	* FREEDENIAL: Allows denials of entrants without interrogating first.
-	* INPSECT: Allows inspection of documents.
-	* FINGERPRINT: Allows fingerprinting as an interrogation possibility.
-	* DETAIN: Allows detention of suspicious entrants.
-	* SEARCH: Allows searching as an interrogation possibility.
-	* SNIPING: (Unused, untestested in functionality) Allows the sniper rifle to be used in the event of a terrorist attack.
-* NEWS: *T Title S Subtitle* The headlines that appear in the newspaper at the start of the day.
+	* _`FREEDENIAL`_: Allows denials of entrants without interrogating first.
+	* _`INPSECT`_: Allows inspection of documents.
+	* _`FINGERPRINT`_: Allows fingerprinting as an interrogation possibility.
+	* _`DETAIN`_: Allows detention of suspicious entrants.
+	* _`SEARCH`_: Allows searching as an interrogation possibility.
+	* _`SNIPING`_: (Unused, untestested in functionality) Allows the sniper rifle to be used in the event of a terrorist attack.
+* NEWS: _`T Title S Subtitle`_ The headlines that appear in the newspaper at the start of the day.
 * BULLETIN: The text displayed in the bulletin.
 * BPAGES: The pageid of the Bulletin tutorials, found in Papers.xml, to be displayed after the first page.
 * DURATION:
