@@ -34,9 +34,10 @@ Defines items that can be
 Page
 
 * image: Filename (and extension) of a page of the item seen in the main desk.
-* `<mark>` tag: Text or image that replaces black dots on the image file, going top to bottom in the case of multiple tags.
-	* text: A text string (or contextual information prefaced with $) to be displayed on the item at a black dot on the image file.
-	* image: Filename (and extension) of image to be displayed on the item at a black dot on the image file.
+* \<mark> tag: Text or image that replaces black dots on the image file, going top to bottom in the case of multiple tags.
+	* text: A text string (or reference from [Facts.xml](Facts.md) prefaced with $) to be displayed on the item at a black dot on the image file.
+	* image: Filename (and extension) of image (or reference from [Facts.xml](Facts.md) prefaced with $) to be displayed on the item at a black dot on the image file.
 	* format: Info-specific modifier:
 		* $Name: Determines the name order if not First, Last.
-	* scale: A float value to determine how much the image should be scaled.
+		* $ExpirationDate:
+	* scale: A floating-point value to determine how much the image should be scaled.
