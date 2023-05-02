@@ -8,7 +8,7 @@ This the unofficial modding documentation for the Papers, Please Beta.
 	- [Bodies.xml](xml/Bodies.md)
 	- [Emblems.xml](xml/Emblems.md)
 	- [Faces.xml](xml/Faces.md)
-	- Facts.xml
+	- [Facts.xml](xml/Facts.md)
 	- [Intro.xml](xml/Intro.md)
 	- [News.xml](xml/News.md)
 	- [Papers.xml](xml/Papers.md)
