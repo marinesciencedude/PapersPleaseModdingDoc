@@ -28,9 +28,9 @@ RANOM_ENTRANT
 		x 2 <generic> <speech> <missing>
 ```
 
-* = nation _`Arstotzka_`/_`Kolechia`_/`_Obristan`_/_`Republia`_/_`Antegria`_/_`Impor`_/_`UnitedFed`_: Defines what nation (found in [Facts.xml](../xml/Facts.md)) the entrant is from. 
+* = nation _`Arstotzka`_/_`Kolechia`_/_`Obristan`_/_`Republia`_/_`Antegria`_/_`Impor`_/_`UnitedFed`_: Defines what nation (found in [Facts.xml](../xml/Facts.md)) the entrant is from. 
 * = nation _`Arstotzka:A Kolechia:B Obristan:C Republia:D Antegria:E Impor:F UnitedFed:G`_: Used to randomise the entrant's nationality, notably for 'filler' entrants, where A,B,C,D,E,F are numbers used for weighting.
-* = name _`FirstName-LastName`_: Defines the name of the entrant. As seen with HUSBAND_WIFE_TEAM, the First Name (and possibly Last Name) can be omitted to allow randomisation.
+* = name _`FirstName-LastName`_: Defines the name of the entrant. As seen with `HUSBAND_WIFE_TEAM`, the First Name (and possibly Last Name) can be omitted to allow randomisation.
 * = gender _`M`_/_`F`_: Defines the gender of the entrant.
 * = face _`X-A-B-C-D-E`_: Defines the look of an entrant, where X is M/F and A,B,C,D,E are numbers corresponding to the sprites in root\faces.
 * = purpose: Defines what should be on the 'Purpose' field for the Entry Permit. Correct values can be found in [Facts.xml](../xml/Facts.md)
@@ -40,7 +40,7 @@ RANOM_ENTRANT
 	* x 1 --
 	* x 2 <generic> <speech> <missing>
 		* Used for randomising whether the entrant will have an error or not.
-* INCLUDE _`ENTRANT`_: Includes all features of another entrant, for use when an entrant appears on multiple days (see MR_PERSISTENT)
+* INCLUDE _`ENTRANT`_: Includes all features of another entrant, for use when an entrant appears on multiple days (see `MR_PERSISTENT`)
 * MANUALPAPERS: Used for when an entrant is meant to have documents other than the typical for the day, e.g. none at all, Entry Ticket instead of Entry Permit etc.
 * \+ _`Item ID`_: Sets one item an entrant has.
 * = want _`Item ID`_: Indicates that an item can be given to an entrant.
@@ -55,27 +55,27 @@ RANOM_ENTRANT
 	@
 ```
 
-* " _`Entrant Speech`_: Normal dialogue from the entrant. Can also be used for with certain dialogue IDs (defined in Speeches.txt) for the player character's dialogue. Custom purpose/duration dialogue must be appended with [Speech/Purpose] or [Speech/Duration] so they are selectable in the audio transcript for interrogation.
+* " _`Entrant Speech`_: Normal dialogue from the entrant. Can also be used for with certain dialogue IDs (defined in [Speeches.txt](Speeches.md)) for the player character's dialogue. Custom purpose/duration dialogue must be appended at the end with `[Speech/Purpose]` or `[Speech/Duration]` so they are selectable in the audio transcript for interrogation.
 * " @_`Player Speech`_: Special case example for the player character's dialogue.
 * \+ _`Item ID`_: Allows entrants to give items during dialogue.
 * @ _`Leave`_: Forces the entrant to leave the booth (always to the left, back to Kolechia's side of the border).
 * @ _`Detain`_: Enables detainment of an entrant (with the corresponding 'Detain' cue).
 * @ News _`Headline \ Subtitle`_: Sets a headline for the following day's newspaper.
-* \> Intro-Before: Actions and/or dialogue to take place before any intro dialogue (used only for the 'EZIC' entrant and an unused 'Pevert-1').
-* \> Intro-After: Actions and/or dialogue to take place after any intro dialogue (used for the 'BROTHEL2' entrant (the one who sets the Ludum Dari plotline into motion) and an unused 'Pevert-1').
+* \> Intro-Before: Actions and/or dialogue to take place before any intro dialogue (used only for the `EZIC` entrant and an unused `Pevert-1`).
+* \> Intro-After: Actions and/or dialogue to take place after any intro dialogue (used for the `BROTHEL2` entrant (the one who sets the Ludum Dari plotline into motion) and an unused `Pevert-1`).
 * \> Intro-Replace: Dialogue used when the entrant steps into the booth.
-* \> ShutterClose: Actions to take palce if the shutters are closed (only used for the the 'MRPERSISTENT0' entrant, the first Jorji Costava appearance).
-* \> Give-BrothelHelp/Give-EzicIntro: Actions and/or dialogue to take place as a result of giving the the 'BrothelHelp' or 'EzicIntro' items to this entrant
+* \> ShutterClose: Actions to take palce if the shutters are closed (only used for the the `MRPERSISTENT0` entrant, the first Jorji Costava appearance).
+* \> Give-BrothelHelp/Give-EzicIntro: Actions and/or dialogue to take place as a result of giving the the  BrothelHelp` or `EzicIntro` items to this entrant
 * \> Interrogate-Replace: Dialogue used when the entrant is interrogated.
 * \> Detain-Replace: Dialogue used when the entrant is detained.
-* \> Detain-After: Dialogue used just before a detained entrant exits the booth (only used for the 'KILLERATHELETE' entrant, i.e. Vince Lestrade).
+* \> Detain-After: Dialogue used just before a detained entrant exits the booth (only used for the `KILLERATHELETE` entrant, i.e. Vince Lestrade).
 * \> Approved: Dialogue used for an approved entrant.
 * \> Denied: Dialogue used for a denied entrant.
 * \> Leave: Actions and/or dialogue used for an exiting entrant, regardless of approval/denial status.
 
 ### Game Logic
 
-There are multiple logic states, prefixed by 'Game/', for use in determining previous actions undertaken during a playthrough. These are:
+There are multiple logic states, prefixed by `Game/`, for use in determining previous actions undertaken during a playthrough. These are:
 
 * Game/Ezic
 * Game/Ezic-MetCorman
