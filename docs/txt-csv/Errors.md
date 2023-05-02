@@ -25,13 +25,13 @@ Defines errors that can be present for an entrant.
 			@ Action
 ```
 
-* *Action/ErrorID*: An ID for the Action or Error to be referenced elsewhere.
-* <*generic/contraband/missing*>: An optional tag for the Error.
-* \ Requirement: The ID of an item (found in Papers.xml) required for the error to be recognised. Can also be in the form of a logical expression, by checking information from a path (defined in Facts.xml).
-* ! RequirementCheck: The ID of the information required for the error to be recognised. Prefaced with '~' if the error can be cleared.
-* > *Interrogate/$Interrogate:Error*: Used for defining interrogation dialogue and actions. 
-* " SpeechID: The ID for the speech (found in Speeches.txt).
-* @ *Fingerprint/Detain/Search*: An action that occurs.
+* _`*ActionID`_/_`ErrorID`_: An ID for the Action or Error to be referenced elsewhere.
+* _`<generic`_/_`contraband`_/_`missing>`_: An optional tag for the Error.
+* _`\ Requirement`_: The ID of an item (found in [Papers.xml](../xml/Papers.md)) required for the error to be recognised. Can also be in the form of a logical expression, by checking information from a path (defined in Facts.xml).
+* _`! RequirementCheck`_: The ID of the information from [Facts.xml](../xml/Facts.md) required for the error to be recognised. Prefaced with '~' if the error can be cleared.
+* _`> Interrogate`_/_`$Interrogate:Error`_: Used for defining interrogation dialogue and actions. 
+* _`" SpeechID`_: The ID for the speech (found in [Speeches.txt](Speeches.md)).
+* _`@ Fingerprint`_/_`Detain`_/_`Search`_: An action that occurs.
 
 ### Examples
 How a 'clearable' error is distinguished:
